@@ -82,11 +82,21 @@ const NavBar = () => {
 
         {/* Menu links */}
         <ul className={`${styles.linksSection} hidden md:flex gap-4`}>
-          <li>Home</li>
-          <li>Prints</li>
-          <li>Journals</li>
-          <li>Portfolio</li>
-          <li>About</li>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Prints</a>
+          </li>
+          <li>
+            <a href="#">Journals</a>
+          </li>
+          <li>
+            <a href="#">Portfolio</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
         </ul>
         <div className="flex gap-2">
           {/* Theme button  */}
@@ -115,11 +125,21 @@ const NavBar = () => {
           className={`${styles.mobileMenu} ${isMobileMenuOpen ? styles.showMenu : styles.hideMenu}`}
         >
           <ul className={styles.mobileMenuList}>
-            <li onClick={() => setIsMobileMenuOpen(false)}>Home</li>
-            <li onClick={() => setIsMobileMenuOpen(false)}>Prints</li>
-            <li onClick={() => setIsMobileMenuOpen(false)}>Journals</li>
-            <li onClick={() => setIsMobileMenuOpen(false)}>Portfolio</li>
-            <li onClick={() => setIsMobileMenuOpen(false)}>About</li>
+            <li onClick={() => setIsMobileMenuOpen(false)}>
+              <a href="#">Home</a>
+            </li>
+            <li onClick={() => setIsMobileMenuOpen(false)}>
+              <a href="#">Prints</a>
+            </li>
+            <li onClick={() => setIsMobileMenuOpen(false)}>
+              <a href="#">Journals</a>
+            </li>
+            <li onClick={() => setIsMobileMenuOpen(false)}>
+              <a href="#">Portfolio</a>
+            </li>
+            <li onClick={() => setIsMobileMenuOpen(false)}>
+              <a href="#">About</a>
+            </li>
           </ul>
         </div>
       </nav>

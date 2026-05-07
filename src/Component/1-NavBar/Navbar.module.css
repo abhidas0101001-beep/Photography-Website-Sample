@@ -16,7 +16,6 @@
 .navbar {
   padding: 1rem 1rem;
   background: var(--primary-color);
-  border-bottom: 1px solid var(--secondary-color);
 }
 
 /* Logo section styling from here  */
@@ -46,7 +45,6 @@
 .linksSection li {
   font-size: medium;
   color: var(--primary-color);
-  cursor: pointer;
 }
 
 /* Themebtn styling from here  */
