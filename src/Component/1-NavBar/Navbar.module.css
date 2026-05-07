@@ -1,0 +1,99 @@
+.navbar {
+  padding: 1rem 1rem;
+}
+
+/* Logo section styling from here  */
+
+.logoSection {
+  /* cursor: pointer; */
+
+  width: 60px;
+
+  background-color: var(--);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-right: 1px solid var(--secondary-color);
+}
+
+/* Links section styling from here  */
+
+.linksSection {
+  background: var(--secondary-color);
+  padding: 0.7rem 2rem;
+  border-radius: 9999px;
+}
+
+.linksSection li {
+  font-size: medium;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+/* Themebtn styling from here  */
+
+.themeBtn {
+  width: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-left: 1px solid var(--secondary-color);
+}
+
+/* Menubtn styling from here  */
+
+.mobileMenu {
+  position: absolute;
+  top: 100%;
+  right: 1.5rem;
+
+  background-color: var(--menu-bg);
+  min-width: 220px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px var(--menu-shadow);
+
+  z-index: 100;
+  transition: all 0.3s ease;
+}
+
+.showMenu {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.hideMenu {
+  opacity: 0;
+  transform: translateY(-10px);
+  pointer-events: none;
+}
+
+.mobileMenuList {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobileMenuList li {
+  font-size: medium;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid var(--menu-border);
+  color: var(--menu-text);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.mobileMenuList li:last-child {
+  border-bottom: none;
+}
+
+.mobileMenuList li:hover {
+  background-color: var(--menu-hover);
+}
