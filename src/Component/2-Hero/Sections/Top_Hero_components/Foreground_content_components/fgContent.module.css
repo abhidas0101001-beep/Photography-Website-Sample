@@ -1,0 +1,24 @@
+.supportingText,
+.heroText {
+  max-width: 400px;
+}
+
+.heroText {
+  font-family: "Satoshi", sans-serif;
+  color: rgba(245, 241, 234, 1);
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.45);
+  font-size: clamp(3rem, 6vw, 5.5rem);
+  line-height: 0.9;
+  font-weight: 700;
+  letter-spacing: -0.06em;
+}
+
+.supportingText {
+  margin-left: 0.5vh;
+  font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: rgba(220, 220, 220, 0.884);
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.45);
+  max-width: 520px;
+}

@@ -29,6 +29,16 @@
   --btn-txt-hover: #1f1f1f;
 }
 
+@font-face {
+  font-family: "Satoshi";
+  src: url(./Fonts/Satoshi/Satoshi-Black.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(./Fonts/Inter/static/Inter_18pt-Light.ttf) format("opentype");
+}
+
 html {
   scroll-behavior: smooth;
 }

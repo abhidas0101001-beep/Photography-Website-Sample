@@ -6,6 +6,7 @@
 }
 
 .Top_Hero_container {
+  position: relative;
   height: 85%;
   width: 100%;
   /* clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%); */
