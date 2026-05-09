@@ -29,13 +29,13 @@ const NavBar = () => {
             setIsHidden(true);
           }
           lastScroll.current = currentScroll;
-          console.log("scrolling down");
+          // console.log("scrolling down");
         } else if (currentScroll < lastScroll.current - scrollThreshold) {
           if (isHidden !== false) {
             setIsHidden(false);
           }
           lastScroll.current = currentScroll;
-          console.log("scrolling up");
+          // console.log("scrolling up");
         }
       }
     };
@@ -47,12 +47,12 @@ const NavBar = () => {
   }, [isHidden]);
 
   // Dark mode toggle with button click
-  useEffect(() => {
-    document.documentElement.setAttribute(
-      "data-theme",
-      isDarkMode ? "dark" : "",
-    );
-  }, [isDarkMode]);
+  // useEffect(() => {
+  //   document.documentElement.setAttribute(
+  //     "data-theme",
+  //     isDarkMode ? "dark" : "",
+  //   );
+  // }, [isDarkMode]);
 
   // mobile hide feature when screen size increase
   useEffect(() => {

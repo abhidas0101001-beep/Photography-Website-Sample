@@ -25,13 +25,13 @@
 
   width: 60px;
 
-  background-color: var(--);
+  /* background-color: var(--); */
 
   display: flex;
   justify-content: center;
   align-items: center;
 
-  border-right: 1px solid var(--secondary-color);
+  border-right: 1px solid var(--secodary-color);
 }
 
 /* Links section styling from here  */

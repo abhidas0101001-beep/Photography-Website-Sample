@@ -1,7 +1,13 @@
 import React from "react";
 
 const Hero = () => {
-  return <div className="h-300 bg-amber-600">Hero</div>;
+  return (
+    <div>
+      <section>
+        
+      </section>
+    </div>
+  );
 };
 
 export default Hero;

@@ -2,4 +2,17 @@
 
 A stylish, reactive photography website.
 
-used: Reactjs, Module CSS
+Tech stack:
+ReactJS
+CSS Modules
+GSAP
+ScrollTrigger
+Lenis (not locomotive js)
+Motion
+SwiperJS
+
+Installed stack:
+Reactjs
+GSAP
+Tailwindcss
+Motion

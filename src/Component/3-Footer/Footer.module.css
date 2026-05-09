@@ -1,0 +1,19 @@
+.footer{
+    background: #111;
+    color: white;
+    height: 10vh;
+}
+.footer > section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+.footer > section > p{
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.footer > section > p:hover{
+    text-decoration: underline;
+}
