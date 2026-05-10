@@ -12,7 +12,7 @@ const ForegroundContent = () => {
           <Heading />
           <SupportingText />
         </div>
-        <Btn txt="Contact Me" />
+        <Btn txt="Scroll Down" />
       </div>
     </div>
   );

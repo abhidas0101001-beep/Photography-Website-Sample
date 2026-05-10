@@ -6,7 +6,7 @@ const Btn = (props) => {
     <div className={style.btnContainer}>
       <button
         className={style.btn}
-        onClick={() => (window.location.href = "#footer")}
+        onClick={() => (window.location.href = "#contentFlow")}
       >
         <div className={style.overlay}></div>
         <span className={style.textContainer}>{props.txt}</span>

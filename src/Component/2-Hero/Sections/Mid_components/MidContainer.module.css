@@ -1,0 +1,8 @@
+.mid_container {
+  position: relative;
+  width: 100%;
+  height: 300vh;
+  overflow: hidden;
+
+  background: #535353;
+}

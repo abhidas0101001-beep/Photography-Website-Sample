@@ -1,5 +1,5 @@
-.slider_container{
-    height: 100%;
-    width: 100%;
-    background: #531919;
+.slider_container {
+  height: 100%;
+  width: 100%;
+  background: var(--primary-color);
 }

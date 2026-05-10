@@ -1,19 +1,82 @@
-.footer{
-    background: #111;
-    color: white;
-    height: 10vh;
+.footer {
+  width: 100%;
+  padding: 3rem 0;
+  background-color: #191d29;
+  border-top: 1px solid #1e293b;
 }
-.footer > section{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 100%;
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
-.footer > section > p{
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition: 0.3s;
+
+.text {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #a0a6af;
+  margin: 0;
 }
-.footer > section > p:hover{
-    text-decoration: underline;
+
+/* Container for label + icons */
+.contactWrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contactLabel {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #a0a6af;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
+
+.iconGroup {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.iconGroup a {
+  color: #f8fafc;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.iconGroup a:hover {
+  transform: translateY(-4px);
+}
+
+/* Brand Colors */
+.telegram:hover {
+  color: #229ed9;
+}
+.github:hover {
+  color: #ffffff;
+}
+.instagram:hover {
+  color: #e1306c;
+}
+.twitter:hover {
+  color: #1da1f2;
+}
+
+/* Responsive logic */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .contactWrapper {
+    flex-direction: column; /* Stacks "Contact me" above icons on mobile */
+    gap: 0.8rem;
+  }
 }

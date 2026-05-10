@@ -39,8 +39,22 @@
   src: url(./Fonts/Inter/static/Inter_18pt-Light.ttf) format("opentype");
 }
 
-html {
-  scroll-behavior: smooth;
+@font-face {
+  font-family: "Clash Display";
+  src: url(./Fonts/Clash\ Display/ClashDisplay-Black.woff2) format("woff2");
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
 }
 
 * {

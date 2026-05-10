@@ -16,3 +16,4 @@ Reactjs
 GSAP
 Tailwindcss
 Motion
+Lenis

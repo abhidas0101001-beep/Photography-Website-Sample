@@ -1,0 +1,95 @@
+.flow {
+  height: 100vh;
+  background: #1c1c1c;
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+}
+
+.sectionText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  text-align: center;
+  pointer-events: none;
+  color: #ffffff;
+  width: 100%;
+}
+
+.dialogue {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  font-family: "Instrument Serif", serif;
+  transition: filter 0.3s ease;
+}
+
+.dialogue h2 {
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  margin-bottom: 10px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  color: #aeaeae;
+}
+
+.dialogue p {
+  font-size: clamp(1.5rem, 5vw, 3rem);
+  line-height: 1.1;
+  margin: 0;
+}
+
+.flowImages {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  perspective: 2000px;
+}
+
+.img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  height: 300px;
+  will-change: transform;
+}
+
+.img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.cover {
+  width: 100vw !important;
+  height: 100vh !important;
+}
+
+.cover img {
+  border-radius: 0 !important;
+}
+
+.cover::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 800px) {
+  .img {
+    width: 280px;
+    height: 180px;
+  }
+}
